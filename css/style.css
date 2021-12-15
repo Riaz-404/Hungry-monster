@@ -1,0 +1,92 @@
+body {
+    margin: 50px 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #BB2D3B;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+.form{
+    width: 40%;
+    border: none;
+    background-color: #f8e3e5;
+}
+
+#food{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin: 40px;
+}
+
+.meal-div{
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #F8F7F5;
+    color: #BB2D3B;
+}
+
+.meal-div img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.meal-div h5{
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.meal-div button{
+    border-radius: 10px;
+    border: none;
+    background-color: #f8e3e5;
+}
+
+#food-details{
+    margin: 30px;
+    padding: 20px;
+}
+
+#food-details h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #BB2D3B;
+}
+
+#food-details img{
+    width: 350px;
+    border-radius: 20px;
+    
+}
+
+.back{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f8e3e5;
+}
+
+.null-img{
+    width: 300px;
+}
+
+#food h2{
+    width: 800px;
+    color: #BB2D3B;
+    margin-top: 100px;
+}
+
